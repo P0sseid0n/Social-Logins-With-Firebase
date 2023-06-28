@@ -1,4 +1,6 @@
-# SocialLogins
+# SocialLogins Using Firebase
+
+Projeto de Login com redes sociais usando Firebase
 
 Login Page
 ![Login Page](./Login.jpeg)
