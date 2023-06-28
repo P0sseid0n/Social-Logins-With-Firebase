@@ -1,46 +1,31 @@
-# TweetPrint
+# SocialLogins
 
-This template should help get you started developing with Vue 3 in Vite.
+Login Page
+![Login Page](./Login.jpeg)
 
-## Recommended IDE Setup
+User Page
+![User Page](./Logout.jpeg)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## How to Use 🚀
 
-## Type Support for `.vue` Imports in TS
+```bash
+# Clone o repositório
+$ git clone https://github.com/P0sseid0n/SocialLogins.git
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+# Va para o repositório
+$ cd SocialLogins
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+# Instale as dependências
+$ npm install
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+# Rode a aplicação em modo de desenvolvimento
+$ npm run dev
 ```
 
-### Compile and Hot-Reload for Development
+## Contribution 🤝
 
-```sh
-npm run dev
-```
+Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou melhorias para o projeto, sinta-se à vontade para abrir uma solicitação de pull.
 
-### Type-Check, Compile and Minify for Production
+## License 📄
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Este projeto está licenciado sob a [MIT License](./LICENSE.md).
